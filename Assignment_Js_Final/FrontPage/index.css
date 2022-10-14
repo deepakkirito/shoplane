@@ -1,0 +1,284 @@
+body {
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* <===========================Navigation Start=========================> */
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 5px 50px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.388);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: white;
+}
+
+.shoplane_logo {
+    text-decoration: none;
+    color: black;
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -3px;
+    margin: 5px 3vw;
+    margin-top: 13px;
+    transform: rotate(-2deg);
+}
+
+.shoplane_logo span:first-child {
+    font-weight: 800;
+}
+
+/* .shoplane_logo span:last-child {} */
+
+.navbar_categories {
+    margin-top: 10px;
+}
+
+.navbar_categories a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    /* letter-spacing: -1px; */
+    margin: 0px 1vw;
+}
+
+
+.search>img {
+    width: 25px;
+    position: absolute;
+    right: 29vw;
+    top: 33px;
+    cursor: pointer;
+    /* margin-left: 5vw; */
+}
+
+#searchBox {
+    display: none;
+    width: 350px;
+    border: none;
+    box-shadow: 0px 0px 10px rgb(200, 200, 200);
+    border-radius: 20px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    /* text-align: center; */
+    /* text-align: start; */
+    height: 30px;
+    position: absolute;
+    right: 32vw;
+    top: 32px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cart_logo {
+    width: 25px;
+    position: absolute;
+    right: 25vw;
+    top: 35px;
+}
+
+.navbar>img {
+    width: 40px;
+    position: absolute;
+    right: 20vw;
+    top: 25px;
+}
+
+/* <===========================Navigation End=========================> */
+
+/* <===========================Card Section Start=========================> */
+
+.card_section {
+    margin: 0 0 0 5vw;
+    /* text-decoration: none; */
+
+}
+
+.card_section h1 {
+    /* padding-top: 10%; */
+    margin-top: 100px;
+    margin-left: 70px;
+    color: rgb(27, 25, 25);
+    font-weight: 400;
+}
+
+.card_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding: 0 4%; */
+    margin-bottom: 5%;
+}
+
+.card_body {
+    width: 15%;
+    min-width: 200px;
+    height: auto;
+    margin: 30px 10px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 30%);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.card_container :hover {
+    box-shadow: 0 2px 10px rgb(0 0 0 / 70%);
+    
+}
+
+.card_body img:hover{
+    box-shadow: 0 0px 10px rgb(0 0 0 / 30%);
+    
+}
+
+.card_body img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    box-shadow: 0px .5px 2px grey;
+}
+
+.card_details {
+    padding-left: 10px;
+    margin: 10px auto;
+    font-family: Montserrat, sans-serif;
+}
+
+.card_details:hover{
+    box-shadow: 0px 0px 0px grey;
+    text-decoration: none;
+}
+
+.card_details h6 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 1;
+    letter-spacing: 0.5px;
+    color: rgb(27, 25, 25);
+    margin-top: 0%;
+    padding-left: 5%;
+}
+
+.card_details h6:hover{
+    box-shadow: 0px 0px 0px grey;
+    text-decoration: none;
+}
+.card_details p:hover{
+    box-shadow: 0px 0px 0px grey;
+    text-decoration: none;
+}
+.card_details div:hover{
+    box-shadow: 0px 0px 0px grey;
+    text-decoration: none;
+}
+
+.card_details p {
+    margin-top: -10px;
+    text-align: left;
+    font-size: 12px;
+    color: rgb(110, 110, 110);
+    padding-left: 5%;
+    text-decoration: none;
+}
+
+.card_details div {
+    margin-top: 15px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #009688;
+    padding-left: 5%;
+    padding-bottom: 10%;
+}
+
+/* <===========================Card Section End=========================> */
+
+/* <===========================Cart logo Start=========================> */
+
+#totalItems{
+    /* width: 15px; */
+    /* height: 15px; */
+    background-color: #009688;
+    border-radius: 55px;
+    padding: 3px 7px;
+    font-weight: 600;
+    /* text-decoration: line-through; */
+    position: fixed;
+    right: 15vw;
+    top: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+/* <===========================Cart logo End===========================> */
+
+/* <===========================Footer Start===========================> */
+
+footer{
+    width: 100%;
+    /* height: 50%; */
+    background-color: rgba(0, 0, 0, 0.902);
+    /* border: 2px solid rgba(242, 238, 238, 0.947);
+    border-top: 0px solid; */
+}
+
+footer div{
+    display: flex;
+    /* margin: 10%; */
+    /* padding: 2%; */
+    margin-left: 9%;
+}
+
+footer section{
+    width: 170px;
+    margin: 4%;
+}
+
+footer span{
+    color: white;
+    display: block;
+    margin: 5%;
+    font-weight: 10;
+}
+
+.FOOTER_HEAD{
+    font-weight: bolder;
+    border-bottom: 2px solid whitesmoke;
+}
+
+
+
+/* <===========================Footer End===========================> */
+
+.container{
+    padding-top: 100px;
+}
+
+
+
+
+/* <===========================Responsive Start===========================> */
+
+@media screen and (max-width: 500px) and (min-width: 360px) {
+
+    .navbar{
+        width: 100%;
+        padding-left: 3%;
+    }
+
+    .shoplane_logo{
+        font-size: 13px;
+        margin-left: 0%;
+    }
+
+}
+
+
+
+/* <===========================Responsive End===========================> */
