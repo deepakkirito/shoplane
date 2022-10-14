@@ -1,0 +1,270 @@
+body {
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* <===========================Navigation Start=========================> */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    padding: 5px 50px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.388);
+    position: fixed;
+    background-color: white;
+}
+
+.shoplane_logo {
+    text-decoration: none;
+    color: black;
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -3px;
+    margin: 5px 3vw;
+    margin-top: 13px;
+    transform: rotate(-2deg);
+}
+
+.shoplane_logo span:first-child {
+    font-weight: 800;
+}
+
+.shoplane_logo span:last-child{
+}
+
+.navbar_categories{
+    margin-top: 10px;
+}
+
+.navbar_categories a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    /* letter-spacing: -1px; */
+    margin: 0px 1vw;
+}
+
+
+.search >img {
+    width: 25px;
+    position: absolute;
+    right: 29vw;
+    top: 33px;
+    cursor: pointer;
+    /* margin-left: 5vw; */
+}
+
+#searchBox {
+    display: none;
+    width: 350px;
+    border: none;
+    box-shadow: 0px 0px 10px rgb(200, 200, 200);
+    border-radius: 20px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    /* text-align: center; */
+    /* text-align: start; */
+    height: 30px;
+    position: absolute;
+    right: 32vw;
+    top: 32px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cart_logo {
+    width: 25px;
+    position: absolute;
+    right: 25vw;
+    top: 35px;
+}
+
+.navbar>img {
+    width: 40px;
+    position: absolute;
+    right: 20vw;
+    top: 25px;
+}
+
+/* <===========================Navigation End=========================> */
+
+/* <===========================Checkout Page Start=========================> */
+
+#checkoutPage{
+    /* position: absolute; */
+    /* margin-top: 8%; */
+    /* height: 100%; */
+    padding-top: 8%;
+    /* padding-bottom: 100px; */
+}
+
+#checkoutPage h1{
+    margin-left: 7vw;
+    font-weight: 100;
+}
+
+#totalItems{
+    margin-left: 7vw;
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+
+/* <===========================Checkout Page End===========================> */
+
+/* <===========================Cart logo Start=========================> */
+
+#totalItemsLogo{
+    /* width: 15px; */
+    /* height: 15px; */
+    background-color: #009688;
+    border-radius: 55px;
+    padding: 3px 7px;
+    font-weight: 600;
+    /* text-decoration: line-through; */
+    position: fixed;
+    right: 15vw;
+    top: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+/* <===========================Cart logo End===========================> */
+
+/* <===========================Cart Details Start===========================> */
+
+#checkoutDetails{
+    margin-top: 2%;
+    margin-left: 7%;
+    display: flex;
+}
+
+#checkoutLeft{
+    width: 40vw;
+
+}
+
+.checkout_items{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    box-shadow: 0px 0px 3px grey;
+    margin-bottom: 5%;
+    height: 140px;
+}
+
+#checkoutLeft img{
+    width: 80px;
+    height: fit-content;
+    /* margin-right: 40px; */
+    box-shadow: 0px 0px 2px grey;
+    border-radius: 1px;
+    margin: 0px 25px;
+    
+}
+
+.checkout_items_details h3{
+    margin-bottom: 0px;
+    font-weight: bold;
+    /* font-size: 18px; */
+}
+
+.checkout_items_details p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#checkoutRight{
+    width: 40vw;
+    height: max-content;
+    margin-left: 5%;
+    box-shadow: 0px 0px 3px grey;
+    padding: 1% 2%;
+}
+
+#checkoutRight h2{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+#checkoutRight span{
+    color: rgba(0, 0, 0, 0.724);
+    /* opacity: 0.8; */
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 4px;
+    text-align: center;
+}
+
+button{
+    background-color: #009688;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    padding: 18px 36px;
+    border-radius: 6px;
+    margin-top: 36px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+
+/* <===========================Cart Details End===========================> */
+
+/* <===========================Footer Start===========================> */
+
+footer{
+    /* position: absolute; */
+    bottom: 0%;
+    right: 0%;
+    width: 100%;
+    /* height: 50%; */
+    background-color: rgba(0, 0, 0, 0.902);
+    /* border: 2px solid rgba(242, 238, 238, 0.947);
+    border-top: 0px solid; */
+    margin-top: 50px;
+}
+
+footer div{
+    display: flex;
+    /* margin: 10%; */
+    /* padding: 2%; */
+    margin-left: 9%;
+}
+
+footer section{
+    width: 170px;
+    margin: 4%;
+}
+
+footer span{
+    color: white;
+    display: block;
+    margin: 5%;
+    font-weight: 10;
+}
+
+.FOOTER_HEAD{
+    font-weight: bolder;
+    border-bottom: 2px solid whitesmoke;
+}
+
+
+
+/* <===========================Footer End===========================> */

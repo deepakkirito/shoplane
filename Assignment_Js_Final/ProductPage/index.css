@@ -1,0 +1,280 @@
+body {
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* <===========================Navigation Start=========================> */
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 92.11%;
+    /* width: 90.9vw; */
+    padding: 5px 50px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.388);
+    position: fixed;
+    background-color: white;
+}
+
+.shoplane_logo {
+    text-decoration: none;
+    color: black;
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -3px;
+    margin: 5px 3vw;
+    margin-top: 13px;
+    transform: rotate(-2deg);
+}
+
+.shoplane_logo span:first-child {
+    font-weight: 800;
+}
+
+.shoplane_logo span:last-child {}
+
+.navbar_categories {
+    margin-top: 10px;
+}
+
+.navbar_categories a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    /* letter-spacing: -1px; */
+    margin: 0px 1vw;
+}
+
+
+.search>img {
+    width: 25px;
+    position: absolute;
+    right: 19vw;
+    top: 33px;
+    cursor: pointer;
+    /* margin-left: 5vw; */
+}
+
+#searchBox {
+    display: none;
+    width: 350px;
+    border: none;
+    box-shadow: 0px 0px 10px rgb(200, 200, 200);
+    border-radius: 20px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    /* text-align: center; */
+    /* text-align: start; */
+    height: 30px;
+    position: absolute;
+    right: 22vw;
+    top: 32px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cart_logo {
+    width: 25px;
+    position: absolute;
+    right: 15vw;
+    top: 35px;
+}
+
+.navbar>img {
+    width: 40px;
+    position: absolute;
+    right: 10vw;
+    top: 25px;
+}
+
+/* <===========================Navigation End=========================> */
+
+/* <===========================Product Page Start=========================> */
+
+#productPage {
+    /* margin: 10%; */
+    /* position: absolute; */
+    /* top: 3%; */
+    padding-top: 13%;
+    padding-left: 8%;
+    display: flex;
+    /* width: 20%; */
+    /* align-items: center; */
+    padding-bottom: 10%;
+    
+}
+
+#productPreview {
+    width: 350px;
+    height: fit-content;
+}
+
+#productDetails {
+    /* width: 50%; */
+    margin-top: 1%;
+    margin-left: 8%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#productDetails>:first-child {
+    font-size: 43px;
+    font-weight: lighter;
+
+}
+
+#productDetails>:nth-child(2) {
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    opacity: 0.6;
+    margin: 0;
+    margin-top: 15px;
+}
+
+#productDetails>:nth-child(3) {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 36px;
+    font-weight: 400;
+    /* display: flex; */
+}
+
+#productDetails>:nth-child(3) p {
+    max-width: 500px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    font-weight: 600;
+    color: #009688;
+    margin: 0;
+    display: inline-block;
+}
+
+#productDetails>:nth-child(4) {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 36px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+#productDetails>:nth-child(4) p {
+    max-width: 500px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#productDetails>:nth-child(5){
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 36px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+#productPreviewPhotos{
+    display: flex;
+    cursor: auto;
+}
+
+#productPreviewPhotos img{
+
+    width: 50px;
+    border-radius: 6px;
+    margin: 20px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+button{
+    background-color: #009688;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    padding: 18px 36px;
+    border-radius: 6px;
+    margin-top: 36px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+    color: white;
+    transition: transform 200ms;
+}
+
+.active_class{
+    border: 2px solid #009688;
+}
+
+
+/* <===========================Product Page End=========================> */
+
+/* <===========================Cart logo Start=========================> */
+
+#totalItems{
+    /* width: 15px; */
+    /* height: 15px; */
+    background-color: #009688;
+    border-radius: 55px;
+    padding: 3px 7px;
+    font-weight: 700;
+    /* text-decoration: line-through; */
+    position: fixed;
+    right: 14vw;
+    top: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+
+
+
+
+/* <===========================Cart logo End===========================> */
+
+.bigger{
+    transform: scale(1.1);
+}
+
+/* <===========================Footer Start===========================> */
+
+footer{
+    width: 100%;
+    /* height: 50%; */
+    background-color: rgba(0, 0, 0, 0.902);
+    /* border: 2px solid rgba(242, 238, 238, 0.947);
+    border-top: 0px solid; */
+}
+
+footer div{
+    display: flex;
+    /* margin: 10%; */
+    /* padding: 2%; */
+    margin-left: 9%;
+}
+
+footer section{
+    width: 170px;
+    margin: 4%;
+}
+
+footer span{
+    color: white;
+    display: block;
+    margin: 5%;
+    font-weight: 10;
+}
+
+.FOOTER_HEAD{
+    font-weight: bolder;
+    border-bottom: 2px solid whitesmoke;
+}
+
+
+
+/* <===========================Footer End===========================> */
