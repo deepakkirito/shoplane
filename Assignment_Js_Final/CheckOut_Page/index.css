@@ -382,6 +382,7 @@ footer span{
 
     #checkoutLeft img{
         /* width: 40px; */
+        height: 90px;
     }
 
     .checkout_items_details h3{

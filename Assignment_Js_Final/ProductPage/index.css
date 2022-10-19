@@ -335,6 +335,7 @@ footer span {
   #productPreview {
     width: 30%;
     margin-top: 5%;
+    height: 150px;
   }
 
   #productDetails {

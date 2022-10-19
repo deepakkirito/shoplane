@@ -93,7 +93,7 @@ body {
 /* <===========================Footer Start===========================> */
 
 footer {
-    /* position: absolute; */
+/*     position: absolute; */
     bottom: 0%;
     left: 0%;
     width: 100%;
@@ -229,6 +229,11 @@ main p {
         right: 14vw;
         top: 13px;
     }
+  
+  footer{
+        position: absolute;
+
+  }
 
     footer div{
         margin-left: 2%;
@@ -239,11 +244,11 @@ main p {
     }
 
     main{
-        padding-top: 70px;
+        padding-top: 150px;
     }
 
     main img{
-        width: 100px;
+        width: 150px;
     }
 
     main h1{
