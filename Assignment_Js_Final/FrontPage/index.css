@@ -277,6 +277,80 @@ footer span{
         margin-left: 0%;
     }
 
+    .navbar_categories{
+        padding-bottom: 1vh;
+    }
+
+    .navbar_categories a{
+        font-size: 8px;
+    }
+
+    .search >img{
+        top: 20px;
+        width: 15px;
+        right: 23vw;
+    }
+
+    #searchBox{
+        /* display: flex; */
+        width: 180px;
+        font-size: 7px;
+        height: 15px;
+        top: 45px;
+        right: 23vw;
+    }
+
+    .cart_logo{
+        top: 20px;
+        width: 16px;
+        right: 15vw;
+    }
+
+    .navbar > img{
+        /* display: none; */
+        width: 20px;
+        top: 18px;
+        right: 7vw;
+    }
+
+    .card_section h1{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    .card_body{
+        /* width: 10%; */
+        min-width: 150px;
+    }
+
+    .card_details h6{
+        font-size: 11.5px;
+    }
+
+    .card_details p{
+        font-size: 10px;
+        margin-top: 10%;
+    }
+
+    .card_details div{
+        font-size: 12px;
+    }
+
+    #totalItems{
+        font-size: 6px;
+        padding: .5% 1%;
+        right: 14vw;
+        top: 13px;
+    }
+
+    footer div{
+        margin-left: 2%;
+    }
+
+    footer span{
+        font-size: 8px;
+    }
+
 }
 
 
