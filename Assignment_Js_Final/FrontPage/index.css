@@ -118,7 +118,7 @@ body {
 
 .card_body {
     width: 15%;
-    min-width: 200px;
+    min-width: 150px;
     height: auto;
     margin: 30px 10px;
     cursor: pointer;
